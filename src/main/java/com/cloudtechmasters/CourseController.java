@@ -14,7 +14,7 @@ public class CourseController {
     @GetMapping("/getAllAwsServices")
     public List<String> getAllAwsServices(){
         logger.info("added for failing sonar build");
-        return Arrays.asList("ec2","iam","rds","ecr","eks");
+        return Arrays.asList("sahadeva","jani","vamsi","saravana","sai");
     }
 
     @GetMapping("/getAllDevopsTools")
